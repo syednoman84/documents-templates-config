@@ -10,8 +10,8 @@
     "type": "DOCX"
   },
   {
-    "name": "Invoice",
-    "path": "pdf/invoice.html",
+    "name": "Invoice From PDF",
+    "path": "pdf/invoice-pdf.html",
     "type": "PDF"
   },
   {
