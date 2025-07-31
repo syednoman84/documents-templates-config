@@ -10,8 +10,8 @@
     "type": "DOCX"
   },
   {
-    "name": "Disclosure",
-    "path": "pdf/disclosure-pdf.pdf",
+    "name": "Invoice",
+    "path": "pdf/invoice.html",
     "type": "PDF"
   },
   {
