@@ -13,5 +13,10 @@
     "name": "Disclosure",
     "path": "pdf/disclosure-pdf.pdf",
     "type": "PDF"
+  },
+  {
+    "name": "Invoice",
+    "path": "html/invoice.html",
+    "type": "HTML"
   }
 ]
