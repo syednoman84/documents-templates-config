@@ -1,0 +1,307 @@
+<!-- BEGINNING OF RESPONSYS BASE TEMPLATE -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <link href='https://fonts.cdnfonts.com/css/arial' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Space+Grotesk' rel='stylesheet'>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>{{{{raw}}}}{{ bank_name }}{{{{/raw}}}}</title>
+    <style type="text/css">
+
+
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0;
+            border-spacing: 0;
+        }
+
+        table.email-body-container {
+            table-layout: fixed;
+            width: 530px;
+        }
+
+        table.email-body-text-container {
+            table-layout: fixed;
+            width: 450px;
+        }
+
+        .email-body {
+            font-family: 'Arial';
+            font-size: 18px;
+            font-weight: normal;
+            line-height: 24px;
+            color: #022A3A;
+        }
+
+        .email-header {
+            font-family: 'Arial';
+            font-size: 36px;
+            font-weight: bold;
+            line-height: 48px;
+            color: #25282A;
+            text-align: center;
+        }
+
+        .email-disclosure {
+            font-size: 14px;
+            line-height: 16px;
+            color: #94A9B4;
+            text-align: center
+        }
+
+        table.cta {
+            table-layout: fixed;
+            width: 380px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        td.cta {
+            text-align: center;
+            border-radius: 40px;
+            background-color: #D13239;
+            font-weight: 600;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 18px;
+            border: 1px solid #00417c;
+            display: block;
+            cursor: pointer;
+            font-family: 'Arial';
+        }
+
+        td a.cta{
+            font-size: 18px;
+            font-weight: 600;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 8px 12px;
+            display: block;
+            cursor: pointer;
+        }
+
+        .footer-contact {
+            font-size: 16px;
+            color: #94a9b4;
+            line-height: 15px;
+        }
+
+    </style>
+    <style>td, th, tr, thead, tbody { page-break-inside: avoid !important; }</style></head>
+
+<!-- PADDING OVERRIDE ON BODY FOR IPHONE CENTERING -->
+<body autocomplete="off" style="padding: 0;" bgcolor="#edf1f5">
+<table align="center" bgcolor="#f9f9f4" border="0" cellpadding="0" cellspacing="0" width="600" style="margin: 0 auto;">
+    <tbody>
+    <tr>
+        <td data-content-region-name="Body">
+            <!--********** START OF EMAIL CONTENT **********-->
+
+            <!-- START OF LOGO CONTAINER-->
+
+            <table class="center">
+                <!-- separator -->
+                <tr>
+                    <td height="24"></td>
+                </tr>
+                <!-- LOGO -->
+                <tr>
+                    <td>
+                        <a href="" border="0">
+                            <img id="company_logo" alt="{{{{raw}}}}{{ bank_name }}{{{{/raw}}}}" border="0" src="{{{{raw}}}}{{ logo_url }}{{{{/raw}}}}" height="" width="275" valign="middle" style="cursor: pointer;">
+                        </a>
+                    </td>
+                </tr>
+                <!-- separator -->
+                <tr>
+                    <td height="24"></td>
+                </tr>
+            </table>
+
+
+            <!-- END OF LOGO CONTAINTER -->
+
+            <!-- START OF EMAIL CONTENT CONTAINER -->
+            <!--<table class="email-body-text-container">-->
+            <table class="center email-body-container" bgcolor="#ffffff">
+
+                <!-- START OF HEADER -->
+                <tr>
+                    <td bgcolor="#ffffff">
+                        <table class="center email-body-text-container">
+                            <tr><td height="24"></td></tr>
+                            <tr>
+                                <td class="email-header">
+                                    Thank you for choosing {{{{raw}}}}{{ bank_name }}{{{{/raw}}}}!
+                                </td>
+                            </tr>
+                            <tr><td height="24"></td></tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- END OF EMAIL HEADER -->
+
+                <!-- separator -->
+                <tr><td height="24"></td></tr>
+
+                <!-- START OF EMAIL BODY-->
+                <tr>
+                    <td>
+                        <table class="center email-body-text-container email-body">
+
+                            <!-- Separator -->
+                            <tr><td height="24"></td></tr>
+
+                            <tr>
+                                <td style="text-transform:capitalize;">Hi {{{{raw}}}}{{applicantFirstName}}{{{{/raw}}}},
+                                </td>
+                            </tr>
+
+                            <tr><td height="24"></td></tr>
+
+                            <tr>
+                                <td>
+                                    You're almost there. You have  {{{{raw}}}}{{ expiration_days }}{{{{/raw}}}} days to complete your application as of {{{{raw}}}}{{ currentDate }}{{{{/raw}}}} and take advantage of your personalized loan options.
+                                </td>
+                            </tr>
+                            <!-- separator -->
+                            <tr><td height="24"></td></tr>
+
+                            <!-- Longest CTA -->
+                            <tr>
+                                <td>
+                                    <table class="cta">
+                                        <tr>
+                                            <td class="cta">
+                                                <a class="cta" href="{{{{raw}}}}{{applicationUrl}}{{{{/raw}}}}" target="_blank">
+                                                    Select My Loan
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+
+                            <!-- Separator -->
+                            <tr><td height="12"></td></tr>
+
+                            <tr>
+                                <td>
+                                    <strong></strong>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <!-- Separator -->
+                <tr><td height="28"></td></tr>
+                <tr>
+                    <td>
+                        <table class="center email-body-text-container">
+                            <tr>
+                                <td height="1" bgcolor=#94A9B4></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr><td height="28"></td></tr>
+
+                <!-- Paragraph Medium-->
+                <tr>
+                    <td>
+                        <table class="center email-body-text-container email-body">
+                            <tr>
+                                <td>
+                                    Finish your application and you'll enjoy:
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <li>Fast funding to help you achieve your goals
+                                    <li>A low fixed rate that will stay the same for the life of your loan
+                                    <li>Personalized fixed loan payment options ranging from 1-5 years
+
+                                </td>
+                            </tr>
+
+                            <!-- Separator -->
+                            <tr><td height="12"></td></tr>
+
+                            <tr>
+                                <td>
+                                    Already completed your application? Great! There's nothing else you need to do right now. We'll be in touch.<br>
+                                </td>
+                            </tr>
+
+                            <!-- Separator -->
+                            <tr><td height="12"></td></tr>
+
+                            <tr>
+                                <td>
+                                    <strong/>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <!-- Separator -->
+                <tr><td height="28"></td></tr>
+                <tr>
+                    <td>
+                        <table class="center email-body-text-container">
+                            <tr>
+                                <td height="1" bgcolor=#94A9B4></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr><td height="28"></td></tr>
+
+                <!-- END OF EMAIL BODY-->
+
+                <!-- START OF EMAIL SIGNATURE -->
+                <tr>
+                    <td>
+                        <table class="center email-body-text-container email-body">
+                            <tr>
+                                <td class="footer-contact">
+                                    {{{{raw}}}}{{{ bank_department }}}{{{{/raw}}}} <br>
+                                    {{{{raw}}}}{{{ bank_branch }}}{{{{/raw}}}} <br>
+                                    Toll-Free: {{{{raw}}}}{{phone_number}}{{{{/raw}}}}. <br>
+                                    Business Hours: {{{{raw}}}}{{{ operating_hours }}}{{{{/raw}}}}<br><br>
+
+                                    <img id="Equal Lender logo" alt="Equal Lender" border="0" src="{{{{raw}}}}{{ equal_lender_logo }}{{{{/raw}}}}" width = "150" style="cursor: pointer;">
+                                     | &#169; {{{{raw}}}}{{currentYear}}{{{{/raw}}}}{{{{raw}}}}{{{ bank_address }}}{{{{/raw}}}} <br><br>
+                                    Loans are made by Guaranteed Rate, Inc. NMLS ID 2611 | <a href="{{{{raw}}}}{{ bank_consumer_access }}{{{{/raw}}}}">NMLS Consumer Access</a> | <a href="https://www.rate.com/licensing">Licensing information</a><br><br>
+
+                                    {{{{raw}}}}{{{ signature_text }}}{{{{/raw}}}}<br><br>
+                                    CONFIDENTIALITY AND SECURITY NOTICE<br>
+                                    {{{{raw}}}}{{{ confidentiality_text }}}{{{{/raw}}}}<br><br>
+                                    <a href="{{{{raw}}}}{{ privacy_policy_url }}{{{{/raw}}}}" target="_blank">Privacy Policy</a>
+                                </td>
+                            </tr>
+                            <tr><td height="24"></td></tr>
+                        </table>
+                    </td>
+                </tr>
+
+                <!-- END OF EMAIL SIGNATURE-->
+
+            </table>
+            <!-- END OF EMAIL CONTENT CONTAINER-->
+
+            <!-- separator -->
+    <tr><td height="24"></td></tr>
+
+    <!--********** END OF EMAIL CONTENT **********-->
+    </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
