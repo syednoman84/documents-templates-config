@@ -3,5 +3,15 @@
     "name": "Welcome Email",
     "path": "html/welcome-email.html",
     "type": "HTML"
+  },
+  {
+    "name": "Contract",
+    "path": "docx/contract-doc.docx",
+    "type": "DOCX"
+  },
+  {
+    "name": "Disclosure",
+    "path": "pdf/disclosure-pdf.pdf",
+    "type": "PDF"
   }
 ]
