@@ -1,5 +1,15 @@
 [
   {
+    "name": "Invoice",
+    "path": "html/invoice.html",
+    "type": "HTML"
+  },
+  {
+    "name": "Full Invoice",
+    "path": "html/invoicefull.html",
+    "type": "HTML"
+  },
+  {
     "name": "Welcome Email",
     "path": "html/welcome-email.html",
     "type": "HTML"
@@ -13,10 +23,5 @@
     "name": "Invoice From PDF",
     "path": "pdf/invoice-pdf.html",
     "type": "PDF"
-  },
-  {
-    "name": "Invoice",
-    "path": "html/invoice.html",
-    "type": "HTML"
   }
 ]
